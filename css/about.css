@@ -152,6 +152,10 @@ p {
 	line-height: 1.4;
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 	width: 800px;
 	margin: 0 auto;
@@ -175,4 +179,71 @@ header a {
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
+}
+
+.about {
+	margin: 3vh 0 3vh 0;
+	border-bottom: dashed black 2px;
+	padding-bottom: 3vh;
+}
+
+.about h2 {
+	font-size: 24px;
+}
+
+.mainCard {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5vh 0 5vh 0;
+}
+
+.cardItem {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 5vh 0 5vh 0;
+	width: 50%;
+	border-bottom: dashed black 2px;
+}
+
+.cardItem h2 {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.cardItem a {
+	margin: 2vh 0 2vh 0;
+	text-align: center;
+	width: 33%;
+	color: black;
+	padding: 16px;
+	border: solid black 2px;
+	border-radius: 15px;
+}
+
+.cta {
+	margin: 5vh 0 5vh 0;
+}
+
+.cta h2 {
+	font-size: 24px;
+}
+
+footer {
+	width: 100%;
+	background: black;
+}
+
+footer nav {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	font-size: 14px;
+}
+
+footer nav a {
+	color: white;
+	text-decoration: none;
 }
